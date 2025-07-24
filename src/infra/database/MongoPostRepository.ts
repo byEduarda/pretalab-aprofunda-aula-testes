@@ -1,6 +1,6 @@
 import { PostRepository } from "../../core/repositories/PostRepository";
 import { Post } from "../../core/entities/Post";
-import { PostModel } from "../database/mogoosePostModel";
+import { PostModel } from "./mongoosePostModel";
 import { PostWithUserDTO } from "../../core/entities/PostWithUserDTO";
 
 export class MongoPostRepository implements PostRepository {

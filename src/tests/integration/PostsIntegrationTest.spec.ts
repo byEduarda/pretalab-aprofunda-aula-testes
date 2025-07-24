@@ -2,7 +2,7 @@ import request from "supertest";
 import mongoose from "mongoose";
 import app from "../../infra/server/server";
 import { userModel } from "../../infra/database/mongooseUserModel";
-import { PostModel } from "../../infra/database/mogoosePostModel";
+import { PostModel } from "../../infra/database/mongoosePostModel";
 
 describe("Posts Integration Tests", () => {
   let authToken: string;
