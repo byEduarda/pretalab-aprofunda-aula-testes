@@ -1,0 +1,39 @@
+{
+  "name": "pretalab-aprofunda-aula-testes",
+  "version": "1.0.0",
+  "description": "A estrutura do projeto segue os princípios da **Clean Architecture**, separando responsabilidades em diferentes camadas:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byEduarda/pretalab-aprofunda-aula-testes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/byEduarda/pretalab-aprofunda-aula-testes/issues"
+  },
+  "homepage": "https://github.com/byEduarda/pretalab-aprofunda-aula-testes#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "express-list-endpoints": "^7.1.1",
+    "express-validator": "^7.2.1",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/express-list-endpoints": "^6.0.3",
+    "@types/express-validator": "^2.20.33",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.1.0",
+    "jest": "^30.0.5",
+    "ts-jest": "^29.4.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  }
+}
